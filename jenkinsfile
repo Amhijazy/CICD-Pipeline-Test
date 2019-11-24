@@ -1,5 +1,5 @@
 node('master'){
     stage('demo'){
-        echo "Hello World";
+        sh 'composer install'
     }
 }
